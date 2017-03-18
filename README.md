@@ -1,0 +1,1 @@
+This is a python based project that uses the [galerkin method](https://en.wikipedia.org/wiki/Galerkin_method) to numerically simulate the [shallow water equations](https://en.wikipedia.org/wiki/Shallow_water_equations) in a rectangular tub
