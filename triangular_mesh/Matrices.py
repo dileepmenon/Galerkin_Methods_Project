@@ -80,7 +80,7 @@ def global_K_hu_matrix(mesh_points, mesh_elements, H):
             row[oth_el[0]] += a
             row[oth_el[1]] += a
 
-    return -1*np.matrix(global_matrix)
+    return np.matrix(global_matrix)
 
 
 def global_K_hv_matrix(mesh_points, mesh_elements, H):
@@ -122,7 +122,7 @@ def global_K_hv_matrix(mesh_points, mesh_elements, H):
             row[oth_el[0]] += a
             row[oth_el[1]] += a
 
-    return -1*np.matrix(global_matrix)
+    return np.matrix(global_matrix)
 
 
 
@@ -205,6 +205,6 @@ def global_K_vh_matrix(mesh_points, mesh_elements):
             row[oth_el[0]] += K_vh_e[n].item(list(i).index(oth_el[0]))
             row[oth_el[1]] += K_vh_e[n].item(list(i).index(oth_el[1]))
 
-    return -1*np.matrix(global_matrix)
+    return np.matrix(global_matrix)
 
 
