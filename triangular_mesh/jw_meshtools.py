@@ -306,6 +306,6 @@ def DoTriMesh(points,vertices,edge_length=-1,holes=[],tri_refine=None):
   mesh_elements = np.array(mesh.elements)
   
   
-  plt.triplot(mesh_points[:, 0], mesh_points[:, 1], mesh_elements,) 
-  plt.show()
+  #plt.triplot(mesh_points[:, 0], mesh_points[:, 1], mesh_elements,) 
+  #plt.show()
   return mesh_points,mesh_elements;  
