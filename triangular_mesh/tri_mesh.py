@@ -1,7 +1,7 @@
 import jw_meshtools as mt
 
 
-def mesh_rect(tri_length = 0.3, x_dim = 5.0, y_dim = 2.5):
+def mesh_rect(tri_length = 0.1, x_dim = 5.0, y_dim = 2.5):
     """ Creates a triangular mesh on a rectangular domain with co-ordinates :
     [(0, 0), (5, 0), (5, 2.5), (0, 2.5)]
     """
