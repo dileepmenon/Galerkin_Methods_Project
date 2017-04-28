@@ -1,2 +1,4 @@
 #python byte code files
 *.pyc
+*.png
+../.DS_Store
